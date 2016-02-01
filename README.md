@@ -51,9 +51,9 @@ The raw data are split between train and test folder. For each function, it does
 data
 ----
 
-activity: y file. contain the activity id
-activity_labels: contain the binding of activity id and activity name
-subject: contain the subject id
+- activity: y file. contain the activity id
+- activity_labels: contain the binding of activity id and activity name
+- subject: contain the subject id
 
 only all columns with mean() and std() are in the data.
 This is filtered through features.txt
