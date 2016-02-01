@@ -113,6 +113,6 @@ dataSummarized <- data %>%
 inertiaData <- readInertiaSignalData(datasetTypes)
 
 # Write all results to csv files
-write.csv(data, "data.csv")
-write.csv(dataSummarized, "dataSummarized.csv")
-write.csv(inertiaData, "inertiaData.csv")
+write.table(data, "data.txt", row.name=FALSE)
+write.table(dataSummarized, "dataSummarized.txt", row.name=FALSE)
+write.table(inertiaData, "inertiaData.txt", row.name=FALSE)
